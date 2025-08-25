@@ -32,6 +32,7 @@ This tool includes prompts to change the server icon (y/n), fast server nuking t
 
 
 
+# Extra
 
 I hope you enjoy using this tool. If you want another tool i have which is paid, but you can earn money from buy it here: 
 
