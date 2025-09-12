@@ -10,7 +10,7 @@ import aiohttp
 import random
 import json
 
-with open('config.json', 'r') as config_file:
+with open('config.json', 'r', encoding='utf-8') as config_file:
     config = json.load(config_file)
 
 intents = discord.Intents.default()
@@ -29,9 +29,9 @@ welcome = fr"""
       \__\/    \_____\/ \_____\/ \_____\/ \_____\/     \_____\/ \__\/\__\/ \__\/ \__\/ \____/_/ 
                                                                                                 
 
-Version | 3.5
-Update | Added multiple role names for .spamroles and I have now made messages delete after sent.
-Developer | mistercoolguy123 https://mrcool.lol
+Version | 3.6
+Update | config error fixed.
+Developer | mrcool https://mrcool.lol
 
 
                               [+] Bot is online and ready. https://mrcool.lol
